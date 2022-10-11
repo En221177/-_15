@@ -35,8 +35,6 @@
             this.txtYear = new System.Windows.Forms.TextBox();
             this.txtRate = new System.Windows.Forms.TextBox();
             this.btnMonthly = new System.Windows.Forms.Button();
-            this.btnTatol = new System.Windows.Forms.Button();
-            this.btnExport = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -75,7 +73,6 @@
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.Size = new System.Drawing.Size(116, 22);
             this.txtPrice.TabIndex = 4;
-
             // 
             // txtYear
             // 
@@ -93,7 +90,7 @@
             // 
             // btnMonthly
             // 
-            this.btnMonthly.Location = new System.Drawing.Point(68, 382);
+            this.btnMonthly.Location = new System.Drawing.Point(103, 250);
             this.btnMonthly.Name = "btnMonthly";
             this.btnMonthly.Size = new System.Drawing.Size(125, 64);
             this.btnMonthly.TabIndex = 8;
@@ -101,31 +98,11 @@
             this.btnMonthly.UseVisualStyleBackColor = true;
             this.btnMonthly.Click += new System.EventHandler(this.btnMonthly_Click);
             // 
-            // btnTatol
-            // 
-            this.btnTatol.Location = new System.Drawing.Point(199, 382);
-            this.btnTatol.Name = "btnTatol";
-            this.btnTatol.Size = new System.Drawing.Size(125, 64);
-            this.btnTatol.TabIndex = 9;
-            this.btnTatol.Text = "總付款";
-            this.btnTatol.UseVisualStyleBackColor = true;
-            // 
-            // btnExport
-            // 
-            this.btnExport.Location = new System.Drawing.Point(330, 382);
-            this.btnExport.Name = "btnExport";
-            this.btnExport.Size = new System.Drawing.Size(125, 64);
-            this.btnExport.TabIndex = 10;
-            this.btnExport.Text = "輸出";
-            this.btnExport.UseVisualStyleBackColor = true;
-            // 
             // Frm_Homework2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(612, 612);
-            this.Controls.Add(this.btnExport);
-            this.Controls.Add(this.btnTatol);
+            this.ClientSize = new System.Drawing.Size(358, 347);
             this.Controls.Add(this.btnMonthly);
             this.Controls.Add(this.txtRate);
             this.Controls.Add(this.txtYear);
@@ -146,8 +123,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnMonthly;
-        private System.Windows.Forms.Button btnTatol;
-        private System.Windows.Forms.Button btnExport;
         public System.Windows.Forms.TextBox txtPrice;
         public System.Windows.Forms.TextBox txtYear;
         public System.Windows.Forms.TextBox txtRate;

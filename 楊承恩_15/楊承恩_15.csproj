@@ -46,11 +46,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator.Designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
     <Compile Include="FirstForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FirstForm.Designer.cs">
       <DependentUpon>FirstForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPos.Designer.cs">
+      <DependentUpon>FrmPos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStudentStruct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStudentStruct.Designer.cs">
+      <DependentUpon>FrmStudentStruct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ox.Designer.cs">
+      <DependentUpon>Frm_ox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gra.cs" />
+    <Compile Include="Guess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guess.Designer.cs">
+      <DependentUpon>Guess.cs</DependentUpon>
     </Compile>
     <Compile Include="HOMEWORK.cs">
       <SubType>Form</SubType>
@@ -70,11 +101,39 @@
     <Compile Include="Homework2_1.Designer.cs">
       <DependentUpon>Homework2_1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Please guess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Please guess.Designer.cs">
+      <DependentUpon>Please guess.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stru.cs" />
+    <Compile Include="StudentGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentGrade.Designer.cs">
+      <DependentUpon>StudentGrade.cs</DependentUpon>
+    </Compile>
     <Compile Include="Utility.cs" />
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FirstForm.resx">
       <DependentUpon>FirstForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPos.resx">
+      <DependentUpon>FrmPos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStudentStruct.resx">
+      <DependentUpon>FrmStudentStruct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ox.resx">
+      <DependentUpon>Frm_ox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guess.resx">
+      <DependentUpon>Guess.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HOMEWORK.resx">
       <DependentUpon>HOMEWORK.cs</DependentUpon>
@@ -85,6 +144,9 @@
     <EmbeddedResource Include="Homework2_1.resx">
       <DependentUpon>Homework2_1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Please guess.resx">
+      <DependentUpon>Please guess.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -94,6 +156,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="StudentGrade.resx">
+      <DependentUpon>StudentGrade.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
